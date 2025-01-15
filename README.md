@@ -15,11 +15,11 @@ Numpy
 
 Matplotlib
 
-# Building your network
-Use the layers to build your preferred network configuration in *network.py*
-
 # Hyperparameters
 Set the appropriate values for the hyper-parameters listed in *hyperparameters.py*
+
+# Building your network
+Use the layers to build your preferred network configuration in *network.py*
 
 # Train
 Run *train.py* once all the configuration is done to train your network
