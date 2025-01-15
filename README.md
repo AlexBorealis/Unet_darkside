@@ -1,2 +1,2 @@
 # Unet_darkside
-Creation nn models for segmentation of faults in seismicc data
+Creation nn models for segmentation of faults in seismic data
