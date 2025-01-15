@@ -5,11 +5,15 @@ Creation nn model for segmentation of faults in seismic data
 # Dependencies
 This repository depends on the following libraries:
 
-Tensorflow\n
-Keras\n
-Python 3\n
-Numpy\n
-Matplotlib\n
+Tensorflow
+
+Keras
+
+Python 3
+
+Numpy
+
+Matplotlib
 
 # Building your network
 Use the layers to build your preferred network configuration in *network.py*
