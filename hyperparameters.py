@@ -17,6 +17,10 @@ name_test_dataset = "dark-side-test-data-part-3"
 low_clip = 5
 high_clip = 95
 
+# Levels of loss and metric
+iou_level = .99
+dice_level = .95
+
 # Callbacks variables
 tensorboard_logs_name = './logs_' + name_training_dataset
 csv_logger_name = 'training_log_unet_' + name_training_dataset + '.csv'
