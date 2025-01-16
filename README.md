@@ -25,4 +25,4 @@ Use the layers to build your preferred network configuration in [network.py](htt
 Run [train.py](https://github.com/AlexBorealis/Unet_darkside/blob/master/train.py) once all the configuration is done to train your network
 
 # Testing
-Run [predict.py](https://github.com/AlexBorealis/Unet_darkside/blob/master/predict.py) for the getting prediction of faults
+Run [predict.py](https://github.com/AlexBorealis/Unet_darkside/blob/master/predict.py) for the getting prediction of faults and save inside .npz file
