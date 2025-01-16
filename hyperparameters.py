@@ -18,8 +18,8 @@ low_clip = 5
 high_clip = 95
 
 # Levels of loss and metric
-iou_level = .99
-dice_level = .95
+iou_level = .95
+dice_level = .99
 
 # Callbacks variables
 tensorboard_logs_name = './logs_' + name_training_dataset
