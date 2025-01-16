@@ -35,7 +35,7 @@ for td in training_data:
             try:
                 filtered_models = [
                     m for m in models 
-                    if float(re.findall(r'\d+\.\d+', m)[0]) < .99 and float(re.findall(r'\d+\.\d+', m)[1]) <= .95
+                    if float(re.findall(r'\d+\.\d+', m)[0]) < dice_level and float(re.findall(r'\d+\.\d+', m)[1]) <= iou_level
                 ]
                 filtered_models.sort(key=lambda i: (-float(re.findall(r'\d.\d+', i)[1]), float(re.findall(r'\d.\d+', i)[0])))
                 
