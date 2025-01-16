@@ -75,6 +75,9 @@ def get_model(img_size, num_classes):
     model = tf.keras.Model(inputs, outputs, name='unet_model')
     return model
 
+# Creation "model/" directory
+if not os.path.exists('model/'):
+    os.mkdir('model/')
 
 # Testing if model's exists
 if os.path.exists('model/') and len(os.listdir('model/')) > 0:
