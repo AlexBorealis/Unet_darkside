@@ -24,7 +24,7 @@ for td in training_data:
     for i in range(0, 300, 100):
         for j in range(0, 300, 100):
             # Train
-            model.fit(x= np.reshape(u.rescale_volume(seismic_train, low= 5, high= 95)[i:i+100, j:j+100, :], (1, 100, 100, 1259, 1)),
+            model.fit(x= np.reshape(u.rescale_volume(seismic_train, low= low_clip, high= high_clip)[i:i+100, j:j+100, :], (1, 100, 100, 1259, 1)),
                       y= np.reshape(fault_train.astype('float32')[i:i+100, j:j+100, :], (1, 100, 100, 1259, 1)),
                       batch_size= 256,
                       epochs= 200,
